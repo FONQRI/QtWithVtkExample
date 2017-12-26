@@ -4,7 +4,7 @@
 ## Description
 A simple example of using Qt and vtk in one c++ peoject by cmake.
 
-![alt text](https://github.com/FONQRI/QtWithVtkExample/tree/master/src/image/view.png "Screen shot ubuntu Gnome with macbuntu theme (^_*)")
+![Screenshot](https://github.com/FONQRI/QtWithVtkExample/blob/master/image/view.png "Screenshot ubuntu Gnome with macbuntu theme (^_*)")
 
 
 > Dependency
