@@ -32,12 +32,6 @@ VTKmain::VTKmain(QWidget *parent) : QVTKWidget(parent)
 	actor->GetProperty()->SetColor(1, 1, 0); //(R,G,B)
 	renderer->AddActor(actor);
 
-	// to vtkPolyData
-	vtkSmartPointer<vtkDataSetSurfaceFilter> surfaceFilter =
-	    vtkSmartPointer<vtkDataSetSurfaceFilter>::New();
-	surfaceFilter->SetInputConnection(cube->GetOutputPort());
-	surfaceFilter->Update();
-
 	vtkSmartPointer<vtkAxesActor> axes =
 	    vtkSmartPointer<vtkAxesActor>::New();
 
